@@ -1,0 +1,6 @@
+<resources>
+    <style name="Theme.Namazım" parent="Base.Theme.Namazım">
+        <item name="android:statusBarColor">@color/surface_light</item>
+        <item name="android:navigationBarColor">@color/surface_card</item>
+    </style>
+</resources>

@@ -1,0 +1,18 @@
+<resources>
+    <style name="Base.Theme.Namazım" parent="Theme.Material3.Dark.NoActionBar">
+        <item name="colorPrimary">@color/brand_primary_soft</item>
+        <item name="colorOnPrimary">@color/brand_primary_dark</item>
+        <item name="colorSecondary">@color/brand_accent</item>
+        <item name="colorTertiary">@color/brand_accent</item>
+        <item name="colorSurface">@color/surface_dark</item>
+        <item name="shapeAppearanceSmallComponent">@style/ShapeAppearance.Namaz.SmallComponent</item>
+        <item name="shapeAppearanceMediumComponent">@style/ShapeAppearance.Namaz.MediumComponent</item>
+        <item name="shapeAppearanceLargeComponent">@style/ShapeAppearance.Namaz.LargeComponent</item>
+        <item name="materialCardViewStyle">@style/Widget.Namaz.CardView</item>
+        <item name="android:statusBarColor">@color/surface_dark</item>
+        <item name="android:navigationBarColor">@color/surface_card_dark</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+
+    <style name="Theme.Namazım" parent="Base.Theme.Namazım" />
+</resources>

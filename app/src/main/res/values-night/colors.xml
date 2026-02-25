@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="brand_primary_soft">#304A7D</color>
+    <color name="surface_light">#0E1626</color>
+    <color name="surface_card">#1B2435</color>
+    <color name="text_primary">#FFFFFF</color>
+    <color name="text_secondary">#B3BDD3</color>
+    <color name="bottom_nav_unselected">#8D97AC</color>
+    <color name="slot_border">#2C3750</color>
+    <color name="active_badge_bg">#3F3318</color>
+    <color name="qibla_aligned">#6DD58C</color>
+</resources>

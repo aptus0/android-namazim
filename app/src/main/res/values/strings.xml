@@ -1,0 +1,308 @@
+<resources>
+    <string name="app_name">Namazım</string>
+
+    <string name="nav_prayer_times">Vakitler</string>
+    <string name="nav_calendar">Takvim</string>
+    <string name="nav_daily_content">Hadis</string>
+    <string name="nav_settings">Ayarlar</string>
+
+    <string name="screen_city_select">İl Seç</string>
+    <string name="screen_notification_settings">Bildirim Ayarları</string>
+    <string name="screen_favorites">Favoriler</string>
+    <string name="screen_content_detail">İçerik Detay</string>
+    <string name="screen_about">Hakkında</string>
+    <string name="screen_qibla_compass">Kıble Pusulası</string>
+    <string name="screen_qibla_map">Kıble Haritası</string>
+
+    <string name="selected_city_title">Seçili Konum</string>
+    <string name="city_auto_badge">Otomatik</string>
+    <string name="refresh">Yenile</string>
+    <string name="city_required_warning">İlk açılış: Lütfen il seçin.</string>
+    <string name="offline_cache_badge">Offline • Önbellek verisi</string>
+    <string name="remaining_format">%1$s vaktine kalan: %2$s</string>
+    <string name="next_prayer_at">Saat: %1$s</string>
+    <string name="hero_next_prayer_title">Bir Sonraki Vakit</string>
+    <string name="remaining_short_label">Kalan Süre</string>
+    <string name="day_bounds_format">İmsak %1$s • Yatsı %2$s</string>
+    <string name="today_prayer_title">Bugünün Namaz Vakitleri</string>
+    <string name="view_all_short">Tümü</string>
+    <string name="monthly_calendar_shortcut">Aylık Takvim</string>
+    <string name="manage_notifications_shortcut">Bildirimleri Yönet</string>
+    <string name="ramadan_card_title">Ramazan Takibi</string>
+    <string name="iftar_card_value">İftar %1$s</string>
+    <string name="sahur_card_value">Sahur %1$s</string>
+    <string name="hadith_card_title">Günün Hadisi</string>
+    <string name="hadith_card_preview">“Namaz müminin miracıdır.”</string>
+    <string name="qibla_compass_shortcut">Kıble Pusulası</string>
+    <string name="qibla_map_shortcut">Kıble Haritası</string>
+    <string name="qibla_compass_hint">Canlı pusula ile kıbleye hizalanın.</string>
+    <string name="qibla_map_hint">Harita üzerinde kıble doğrultusunu görün.</string>
+
+    <string name="current_prayer_badge">Yaklaşıyor</string>
+    <string name="notifications_active">Bildirimler aktif</string>
+    <string name="notifications_passive">Bildirimler pasif</string>
+    <string name="prayer_options_title">%1$s • %2$s</string>
+    <string name="prayer_options_subtitle">Bu vakit için hızlı bildirim ayarı</string>
+    <string name="prayer_option_10_min">10 dk önce hatırlat</string>
+    <string name="prayer_option_15_min">15 dk önce hatırlat</string>
+    <string name="prayer_option_alarm_mode">Alarm modu</string>
+    <string name="prayer_option_saved_10_min">%1$s için 10 dk önce ayarlandı</string>
+    <string name="prayer_option_saved_15_min">%1$s için 15 dk önce ayarlandı</string>
+    <string name="prayer_option_saved_alarm_mode">%1$s için alarm modu ayarlandı</string>
+
+    <string name="month_selector_hint">Ay Seç</string>
+    <string name="calendar_back_today">Bugüne Dön</string>
+    <string name="calendar_pick_month">Ay Seç</string>
+    <string name="calendar_previous_month">Önceki ay</string>
+    <string name="calendar_next_month">Sonraki ay</string>
+    <string name="calendar_city_auto_format">%1$s (Otomatik)</string>
+    <string name="calendar_filter_all">Tümü</string>
+    <string name="calendar_filter_imsak_iftar">Sadece İmsak / İftar</string>
+    <string name="calendar_filter_weekly">Haftalık</string>
+    <string name="calendar_ramadan_title">Ramazan Takibi</string>
+    <string name="calendar_ramadan_subtitle">Sahur ve iftar odaklı günlük takip</string>
+    <string name="calendar_detail_title">Gün Detayı</string>
+    <string name="calendar_detail_notification">Bildirimleri Ayarla</string>
+    <string name="calendar_time_row_format">%1$s %2$s</string>
+    <string name="calendar_imsak_row_format">İmsak %1$s</string>
+    <string name="calendar_iftar_row_format">İftar %1$s</string>
+    <string name="calendar_no_data">Bu ay için veri bulunamadı.</string>
+    <string name="calendar_not_available">--:--</string>
+    <string name="calendar_detail_date_format">%1$s • %2$s</string>
+    <string name="calendar_detail_ramadan_date_format">%1$s • %2$s</string>
+    <string name="calendar_month_changed">%1$s gösteriliyor</string>
+    <string name="calendar_today_selected">Bugün gösterimine dönüldü</string>
+    <string name="tab_monthly">Aylık Vakitler</string>
+    <string name="tab_ramadan">Ramazan (İmsakiye)</string>
+    <string name="sahur_value">Sahur: %1$s</string>
+    <string name="iftar_value">İftar: %1$s</string>
+
+    <string name="day_yesterday">Dün</string>
+    <string name="day_today">Bugün</string>
+    <string name="day_tomorrow">Yarın</string>
+    <string name="open_favorites">Favoriler</string>
+    <string name="hadith_collections_title">Koleksiyonlar</string>
+    <string name="hadith_collections_subtitle">Diyanet kaynaklı hadis koleksiyonlarına hızlı erişim</string>
+    <string name="hadith_collections_search_hint">Koleksiyon ara</string>
+    <string name="hadith_collection_open">Devam Et</string>
+    <string name="hadith_link_not_available">Kaynak bağlantısı açılamadı.</string>
+    <string name="qibla_title">Kıble</string>
+    <string name="qibla_bearing_format">Kıble açısı: %1$d°</string>
+    <string name="qibla_distance_format">Mesafe: %1$.0f km</string>
+    <string name="qibla_heading_format">Telefon yönü: %1$d°</string>
+    <string name="qibla_alignment_aligned">Hizalandı ✅</string>
+    <string name="qibla_alignment_not_aligned">Hizalanmadı</string>
+    <string name="qibla_calibration_hint">Telefonu 8 çizerek kalibre edin.</string>
+    <string name="qibla_location_loading">Konum alınıyor…</string>
+    <string name="qibla_location_unavailable">Konum alınamadı.</string>
+    <string name="qibla_permission_needed">Kıble için konum izni gerekli.</string>
+    <string name="qibla_recenter">Konuma dön</string>
+    <string name="qibla_refresh_location">Konumu yenile</string>
+    <string name="qibla_vibration_feedback">Kıble bulundu</string>
+
+    <string name="hadith_source">Kaynak: %1$s</string>
+    <string name="share_hadith">Paylaş</string>
+    <string name="share_hadith_chooser">İçeriği paylaş</string>
+    <string name="add_favorite">Favoriye ekle</string>
+    <string name="remove_favorite">Favoriden çıkar</string>
+    <string name="copy_hadith">Kopyala</string>
+    <string name="favorite_updated">Favori durumu güncellendi</string>
+    <string name="hadith_copied">Metin panoya kopyalandı</string>
+
+    <string name="current_city_label">Konum: %1$s</string>
+    <string name="change_city">İli değiştir</string>
+    <string name="search_city_hint">Şehir veya ilçe ara</string>
+    <string name="city_selected">Seçilen konum: %1$s</string>
+
+    <string name="notifications_setting">Bildirimler</string>
+    <string name="notification_offset_hint">Bildirim zamanı</string>
+    <string name="all_notifications">Tüm vakitler açık</string>
+    <string name="notification_item_enabled">Açık</string>
+    <string name="prayer_imsak">İmsak</string>
+    <string name="prayer_gunes">Güneş</string>
+    <string name="prayer_ogle">Öğle</string>
+    <string name="prayer_ikindi">İkindi</string>
+    <string name="prayer_aksam">Akşam</string>
+    <string name="prayer_yatsi">Yatsı</string>
+    <string name="section_prayer_alert_title">Namaz Hatırlatıcı</string>
+    <string name="section_prayer_alert_subtitle">Her vakit için aç/kapat, zaman, mod ve ses seçimi</string>
+    <string name="notification_mode_title">Bildirim</string>
+    <string name="alarm_mode_title">Alarm</string>
+    <string name="sound_picker_title">Ses seçimi</string>
+    <string name="sound_default">Varsayılan</string>
+    <string name="sound_ezan_1">Ezan 1</string>
+    <string name="sound_ezan_2">Ezan 2</string>
+    <string name="sound_phone">Telefon sesi</string>
+    <string name="test_notification">Test bildirimi gönder</string>
+    <string name="test_notification_sent">Test bildirimi gönderildi</string>
+
+    <string name="section_hadith_title">Hadis Bildirimleri</string>
+    <string name="hadith_daily_switch">Günlük hadis bildirimi</string>
+    <string name="hadith_daily_time_hint">Günlük hadis saati (HH:mm)</string>
+    <string name="hadith_near_prayer_switch">Namaz öncesi hadis göster</string>
+    <string name="hadith_source_label">Kaynak: Günün İçeriği (Hadis/Ayet/Dua)</string>
+
+    <string name="section_reliability_title">Güçlü Çalışma Ayarları</string>
+    <string name="open_notification_permission">Bildirim iznini aç</string>
+    <string name="open_exact_alarm_settings">Exact alarm iznini aç</string>
+    <string name="open_battery_optimization">Pil optimizasyonu ayarları</string>
+    <string name="oem_note">Bildirimlerin kaçmaması için pil optimizasyonu ve arka plan kısıtlarını kontrol edin.</string>
+    <string name="permission_status_format">Bildirim: %1$s • Exact alarm: %2$s • Pil optimizasyonu: %3$s</string>
+    <string name="permission_on">Açık</string>
+    <string name="permission_off">Kapalı</string>
+    <string name="permission_granted">Bildirim izni verildi</string>
+    <string name="permission_denied">Bildirim izni verilmedi</string>
+
+    <string name="theme_hint">Tema</string>
+    <string name="data_source_hint">Veri Kaynağı</string>
+    <string name="save_settings">Ayarları kaydet</string>
+    <string name="settings_saved">Ayarlar kaydedildi</string>
+    <string name="settings_title">Ayarlar</string>
+    <string name="settings_about_shortcut">Hakkında</string>
+    <string name="settings_notifications_title">Bildirimler</string>
+    <string name="settings_notifications_subtitle">Namaz, hadis ve alarm bildirimlerini buradan yönetin.</string>
+    <string name="settings_prayer_reminder_title">Namaz Hatırlatıcı</string>
+    <string name="settings_prayer_reminder_desc">Namaz vakitlerinde bildirim ve alarm gönderir.</string>
+    <string name="settings_daily_hadith_title">Günlük Hadis</string>
+    <string name="settings_hadith_time_hint">Günlük hadis saati (HH:mm)</string>
+    <string name="settings_near_prayer_hadith_title">Namaz Öncesi Hadis</string>
+    <string name="settings_mode_title">Bildirim Modu</string>
+    <string name="settings_mode_notification">Bildirim</string>
+    <string name="settings_mode_alarm">Alarm (Tam Ekran)</string>
+    <string name="settings_location_title">Konum</string>
+    <string name="settings_location_permission_needed">Konum izni gerekli</string>
+    <string name="settings_location_permission_granted">Konum izni aktif</string>
+    <string name="settings_location_refresh">Konumu Yenile</string>
+    <string name="settings_location_manual">Manuel Seç</string>
+    <string name="settings_location_refreshing">Konum güncelleniyor...</string>
+    <string name="settings_location_permission_missing">Konum iznini açmanız gerekiyor.</string>
+    <string name="settings_theme_title">Görünüm</string>
+    <string name="settings_sound_title">Alarm Ayarları</string>
+    <string name="settings_alarm_sound_hint">Alarm Sesi</string>
+    <string name="settings_vibration">Titreşim</string>
+    <string name="settings_snooze_title">Ertele Süresi</string>
+    <string name="settings_snooze_5">5 dk</string>
+    <string name="settings_snooze_10">10 dk</string>
+    <string name="settings_snooze_15">15 dk</string>
+    <string name="settings_preview_sound">Ses Önizleme</string>
+    <string name="settings_preview_sent">Önizleme bildirimi gönderildi</string>
+    <string name="settings_system_title">Sistem</string>
+    <string name="settings_status_active">Aktif</string>
+    <string name="settings_status_inactive">Kapalı</string>
+    <string name="settings_status_restricted">Kısıtlı</string>
+    <string name="settings_status_notification">Bildirim izni: %1$s</string>
+    <string name="settings_status_exact">Exact alarm: %1$s</string>
+    <string name="settings_status_battery">Pil optimizasyonu: %1$s</string>
+    <string name="settings_about_title">Uygulama Bilgileri</string>
+    <string name="settings_version_value">Sürüm: %1$s</string>
+    <string name="settings_data_source_value">Veri kaynağı: %1$s</string>
+
+    <string name="offset_exact_time">Tam vaktinde</string>
+    <string name="offset_5_min">5 dk önce</string>
+    <string name="offset_10_min">10 dk önce</string>
+    <string name="offset_15_min">15 dk önce</string>
+    <string name="offset_30_min">30 dk önce</string>
+
+    <string name="theme_system">Sistem</string>
+    <string name="theme_light">Açık</string>
+    <string name="theme_dark">Koyu</string>
+
+    <string name="source_diyanet">Diyanet</string>
+    <string name="source_alternative">Alternatif</string>
+
+    <string name="no_favorites">Henüz favori içerik yok.</string>
+
+    <string name="about_app_version">Sürüm: 2.0.0-mvp</string>
+    <string name="about_data_sources">Hadis içerikleri Diyanet yayınları ve Diyanet dijital platformları referans alınarak sunulmaktadır.</string>
+    <string name="about_privacy">Gizlilik Politikası: Bağlantı ve metin alanı bu sayfada yayınlanacaktır.</string>
+    <string name="about_source_hadislerle_islam">Hadislerle İslam</string>
+    <string name="about_source_hadith_portal">Diyanet Hadis Portalı</string>
+    <string name="about_source_diyanet_publications">Diyanet Yayınları (PDF)</string>
+    <string name="google_maps_key">YOUR_GOOGLE_MAPS_API_KEY</string>
+
+    <string name="channel_prayer_alert_name">Namaz Hatırlatıcı</string>
+    <string name="channel_prayer_alert_desc">Vakit girdi ve öncesi hatırlatma bildirimleri</string>
+    <string name="channel_hadith_daily_name">Günlük Hadis</string>
+    <string name="channel_hadith_daily_desc">Günlük sabit saatte hadis bildirimi</string>
+    <string name="channel_hadith_near_name">Namaz Öncesi Hadis</string>
+    <string name="channel_hadith_near_desc">Namaz yaklaşırken kısa hadis bildirimi</string>
+    <string name="notification_prayer_reminder_title">%1$s vaktine az kaldı</string>
+    <string name="notification_prayer_reminder_body">%1$d dakika sonra vakit girecek.</string>
+    <string name="notification_prayer_entry_title">%1$s vakti girdi</string>
+    <string name="notification_prayer_entry_body">Namaz vaktini kaçırmamak için şimdi kılabilirsiniz.</string>
+    <string name="notification_hadith_near_title">%1$s öncesi kısa hadis</string>
+    <string name="notification_hadith_daily_title">Günün Sözü</string>
+    <string name="alarm_action_snooze">Ertele 5 dk</string>
+    <string name="alarm_action_dismiss">Kapat</string>
+    <string name="alarm_screen_badge">Alarm Modu</string>
+    <string name="alarm_screen_hint">İsterseniz 5 dakika erteleyebilirsiniz.</string>
+
+    <string name="splash_subtitle">Vakit geldiğinde hatırlatır.</string>
+    <string name="splash_status_initial">Hazırlanıyor...</string>
+    <string name="splash_status_permission_check">Gerekli izinler kontrol ediliyor...</string>
+    <string name="splash_status_location">Konumunuz alınıyor...</string>
+    <string name="splash_status_location_failed">Konum alınamadı, kayıtlı şehir kullanılıyor...</string>
+    <string name="splash_status_fetching">%1$s için vakitler güncelleniyor...</string>
+    <string name="splash_status_exact_alarm_warning">Exact alarm izni kapalı. Bildirimler sistem kısıtlarına tabi olabilir.</string>
+    <string name="onboarding_welcome_title">Namazım</string>
+    <string name="onboarding_welcome_body">Konumuna göre otomatik vakitler, günlük hadis ve akıllı bildirimler.</string>
+    <string name="onboarding_feature_city_title">Otomatik Şehir</string>
+    <string name="onboarding_feature_city_desc">Konumuna göre il ve yakın konum otomatik belirlenir.</string>
+    <string name="onboarding_feature_alarm_title">Ezan + Alarm</string>
+    <string name="onboarding_feature_alarm_desc">Vakit yaklaşınca hatırlatır, istersen alarm gibi çalar.</string>
+    <string name="onboarding_feature_hadith_title">Günün Hadisi</string>
+    <string name="onboarding_feature_hadith_desc">Her gün kısa ve okunabilir içerik kartı.</string>
+    <string name="onboarding_continue">Devam</string>
+    <string name="onboarding_permissions_title">İzinler</string>
+    <string name="onboarding_permissions_subtitle">Önce neden gerekli olduğunu açıklıyoruz, sonra izinleri istiyoruz.</string>
+    <string name="onboarding_perm_location_title">Konum İzni</string>
+    <string name="onboarding_perm_location_desc">Şehrini otomatik bulmak ve vakitleri doğru göstermek için.</string>
+    <string name="onboarding_perm_notification_title">Bildirim İzni</string>
+    <string name="onboarding_perm_notification_desc">Namaz hatırlatıcıları ve günlük hadis bildirimleri için.</string>
+    <string name="onboarding_perm_exact_alarm_title">Tam Zamanlı Alarm</string>
+    <string name="onboarding_perm_exact_alarm_desc">Dakikası dakikasına hatırlatma için Android ayarında etkin olmalı.</string>
+    <string name="onboarding_grant_permissions">İzinleri Ver</string>
+    <string name="onboarding_manual_city">İl Seç (Fallback)</string>
+    <string name="onboarding_location_required">Konum izni olmadan otomatik şehir bulunamaz. İstersen il seçerek devam et.</string>
+
+    <string-array name="notification_offsets">
+        <item>@string/offset_exact_time</item>
+        <item>@string/offset_5_min</item>
+        <item>@string/offset_10_min</item>
+        <item>@string/offset_15_min</item>
+        <item>@string/offset_30_min</item>
+    </string-array>
+
+    <string-array name="theme_modes">
+        <item>@string/theme_system</item>
+        <item>@string/theme_light</item>
+        <item>@string/theme_dark</item>
+    </string-array>
+
+    <string-array name="alarm_sounds">
+        <item>@string/sound_default</item>
+        <item>@string/sound_ezan_1</item>
+        <item>@string/sound_ezan_2</item>
+        <item>@string/sound_phone</item>
+    </string-array>
+
+    <string-array name="data_sources">
+        <item>@string/source_diyanet</item>
+        <item>@string/source_alternative</item>
+    </string-array>
+
+    <string-array name="calendar_months">
+        <item>Ocak 2026</item>
+        <item>Şubat 2026</item>
+        <item>Mart 2026</item>
+        <item>Nisan 2026</item>
+        <item>Mayıs 2026</item>
+        <item>Haziran 2026</item>
+        <item>Temmuz 2026</item>
+        <item>Ağustos 2026</item>
+        <item>Eylül 2026</item>
+        <item>Ekim 2026</item>
+        <item>Kasım 2026</item>
+        <item>Aralık 2026</item>
+    </string-array>
+</resources>

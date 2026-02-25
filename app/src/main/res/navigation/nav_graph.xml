@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/prayerTimesFragment">
+
+    <fragment
+        android:id="@+id/prayerTimesFragment"
+        android:name="com.example.namazm.ui.prayertimes.PrayerTimesFragment"
+        android:label="@string/nav_prayer_times"
+        tools:layout="@layout/fragment_prayer_times" />
+
+    <fragment
+        android:id="@+id/calendarFragment"
+        android:name="com.example.namazm.ui.calendar.CalendarFragment"
+        android:label="@string/nav_calendar"
+        tools:layout="@layout/fragment_calendar" />
+
+    <fragment
+        android:id="@+id/dailyHadithFragment"
+        android:name="com.example.namazm.ui.dailyhadith.DailyHadithFragment"
+        android:label="@string/nav_daily_content"
+        tools:layout="@layout/fragment_daily_hadith" />
+
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.example.namazm.ui.settings.SettingsFragment"
+        android:label="@string/nav_settings"
+        tools:layout="@layout/fragment_settings" />
+
+    <fragment
+        android:id="@+id/citySelectFragment"
+        android:name="com.example.namazm.ui.cityselect.CitySelectFragment"
+        android:label="@string/screen_city_select"
+        tools:layout="@layout/fragment_city_select" />
+
+    <fragment
+        android:id="@+id/notificationSettingsFragment"
+        android:name="com.example.namazm.ui.notifications.NotificationSettingsFragment"
+        android:label="@string/screen_notification_settings"
+        tools:layout="@layout/fragment_notification_settings" />
+
+    <fragment
+        android:id="@+id/favoritesFragment"
+        android:name="com.example.namazm.ui.favorites.FavoritesFragment"
+        android:label="@string/screen_favorites"
+        tools:layout="@layout/fragment_favorites" />
+
+    <fragment
+        android:id="@+id/contentDetailFragment"
+        android:name="com.example.namazm.ui.contentdetail.ContentDetailFragment"
+        android:label="@string/screen_content_detail"
+        tools:layout="@layout/fragment_content_detail" />
+
+    <fragment
+        android:id="@+id/aboutFragment"
+        android:name="com.example.namazm.ui.about.AboutFragment"
+        android:label="@string/screen_about"
+        tools:layout="@layout/fragment_about" />
+
+    <fragment
+        android:id="@+id/qiblaCompassFragment"
+        android:name="com.example.namazm.ui.qibla.QiblaCompassFragment"
+        android:label="@string/screen_qibla_compass"
+        tools:layout="@layout/fragment_qibla_compass" />
+
+    <fragment
+        android:id="@+id/qiblaMapFragment"
+        android:name="com.example.namazm.ui.qibla.QiblaMapFragment"
+        android:label="@string/screen_qibla_map"
+        tools:layout="@layout/fragment_qibla_map" />
+
+</navigation>

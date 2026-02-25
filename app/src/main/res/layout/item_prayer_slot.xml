@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/card_prayer_slot"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="10dp"
+    android:background="@drawable/bg_prayer_slot"
+    android:clickable="true"
+    android:focusable="true"
+    android:foreground="?attr/selectableItemBackground"
+    android:gravity="center_vertical"
+    android:minHeight="62dp"
+    android:orientation="horizontal"
+    android:paddingHorizontal="14dp"
+    android:paddingVertical="11dp">
+
+    <ImageView
+        android:id="@+id/image_prayer_icon"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginEnd="10dp"
+        android:contentDescription="@null"
+        tools:src="@drawable/ic_prayer_moon" />
+
+    <TextView
+        android:id="@+id/text_prayer_name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textAppearance="@style/TextAppearance.Material3.TitleSmall"
+        android:textColor="@color/text_primary"
+        android:textStyle="bold"
+        tools:text="İmsak" />
+
+    <TextView
+        android:id="@+id/text_active_badge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:background="@drawable/bg_active_badge"
+        android:paddingHorizontal="8dp"
+        android:paddingVertical="4dp"
+        android:text="@string/current_prayer_badge"
+        android:textAppearance="@style/TextAppearance.Material3.LabelSmall"
+        android:textColor="@color/brand_accent"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/text_prayer_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="10dp"
+        android:textAppearance="@style/TextAppearance.Material3.TitleSmall"
+        android:textColor="@color/text_primary"
+        android:textStyle="bold"
+        tools:text="05:39" />
+
+    <ImageView
+        android:id="@+id/image_notification_state"
+        android:layout_width="18dp"
+        android:layout_height="18dp"
+        android:contentDescription="@string/notifications_active"
+        android:src="@drawable/ic_notification_on"
+        tools:tint="@color/brand_primary" />
+
+</LinearLayout>
